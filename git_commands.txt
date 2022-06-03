@@ -16,16 +16,29 @@ git diff --staged -> matches staging area with last commit
 git checkout -f -> matches working directory with last commit
 git rm filenanme -> remove file from the directory or folder
 git rm --cached xyz.html -> remove file fromt he staging area
+
+
+
+
+********creating new branch************
 git branch branch_name -> creating copy of master branch
 git checkout branch_name -> switch to other branch from master branch
-*******best command**********
 git checkout master -> switch back to master branch
+
+
+
+
 *********merge any banch to master branch**********
 first change to master branch
 git checkout master
 then merge to master branch
 git merge branch_name -> merge branch to master branch
+
+
 **********pushing folders to github***********
+
+
+
 first go to github -> Profile -> repositories -> New repository
 This will create a remote repository where u push your local repository from device
 Next, follow following steps to push repositories:
