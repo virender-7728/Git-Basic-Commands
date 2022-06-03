@@ -1,3 +1,4 @@
+Some basic Git commands to start with git
 
 git --version -> check the version of the git bash installed
 git config --global user.name "user_name"-> to create user with name <user_name>
@@ -24,3 +25,19 @@ first change to master branch
 git checkout master
 then merge to master branch
 git merge branch_name -> merge branch to master branch
+**********pushing folders to github***********
+first go to github -> Profile -> repositories -> New repository
+This will create a remote repository where u push your local repository from device
+Next, follow following steps to push repositories:
+
+git init -> cerate /.git file
+git status -> check files in staging area
+git add filename -> add the selected file to staging area
+git add -A -> add all the files to staging area
+git commit -a -m "task-name" -> commit the files in staging area(git will store history at this time)
+git remote add origin <paste the URL of repository>
+git push -u origin master -> This will push all the folders in the master branch to remote repository at git hub
+
+
+hurrey!!!!! Job is done.....
+
