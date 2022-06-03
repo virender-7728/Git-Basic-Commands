@@ -1,0 +1,26 @@
+
+git --version -> check the version of the git bash installed
+git config --global user.name "user_name"-> to create user with name <user_name>
+git config --global user.emain user_email@email.com -> create email for the user
+git add -> add directory to staging area
+touch xyz.html -> create new directory
+git add -A -> add all the directory at once to the staging area
+git commit <filename>  ->  add the directory to the staging area
+git commit -m "task name" -> commit all the directories in the staging area at once
+git commit -a -m "task" -> It add directory to staging area and commit at same time
+git log -> to see changes recent changes made to directory
+git log -p -2 -> show last 2 commits
+git diff -> it matches working tree with staging area
+git diff --staged -> matches staging area with last commit
+git checkout -f -> matches working directory with last commit
+git rm filenanme -> remove file from the directory or folder
+git rm --cached xyz.html -> remove file fromt he staging area
+git branch branch_name -> creating copy of master branch
+git checkout branch_name -> switch to other branch from master branch
+*******best command**********
+git checkout master -> switch back to master branch
+*********merge any banch to master branch**********
+first change to master branch
+git checkout master
+then merge to master branch
+git merge branch_name -> merge branch to master branch
